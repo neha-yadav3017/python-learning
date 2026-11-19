@@ -1,0 +1,63 @@
+#uper()
+print("hello".upper())
+print("python language".upper())
+print("india is great".upper())
+print("good morning".upper())
+print("welcome home".upper())
+
+#lower()
+print("HELLO".lower())
+print("PYTHON LANGUAGE".lower())
+print("INDIA IS GREAT".lower())
+print("GOOD MORNING".lower())
+print("WELCOME HOME".lower())
+
+#capitalize()
+print("hello world".capitalize())
+print("python language".capitalize())
+print("india is great".capitalize())
+print("good morning".capitalize())
+print("my name is ram".capitalize())
+
+#strip()
+print("  hello  ".strip())
+print("   python   ".strip())
+print("  india ".strip())
+print("   ram   ".strip())
+print("  welcome home  ".strip())
+
+#rstrip()
+print("hello  ".rstrip())
+print("sum   ".rstrip())
+print("india  ".rstrip())
+print("neha    ".rstrip())
+print("welcome   ".rstrip())
+
+#lstrip()
+print("  Hello".lstrip())
+
+print("Python".lstrip("P"))
+
+print("###Hello".lstrip("#"))
+
+print("  Welcome".lstrip())
+print("123Python".lstrip("123"))
+
+#split()
+print("hello world".split())
+print("I love python".split())
+print("apple,banana,mango".split(","))
+print("ram-shyam-mohan".split("-"))
+print("one two three".split())
+
+#starwith()
+print("python".startswith("p"))
+print("hello".startswith("h"))
+print("india".startswith("i"))
+print("banana".startswith("b"))
+print("python".startswith("j"))
+
+#endswith() 
+print("neha".endswith("h"))
+print("hello".endswith("o"))
+print("pythonn".endswith("y"))
